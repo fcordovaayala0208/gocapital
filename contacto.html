@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contacto · Go Capital</title>
+<meta name="description" content="Agenda una reunión con un Investment Advisor de Go Capital. Oficina en San Isidro, Lima.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+<script src="assets/theme.js"></script>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/pages.css">
+</head>
+<body data-page="contacto">
+<main>
+
+<section class="page-hero">
+  <div class="wrap contact-grid">
+    <div>
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Inicio</a><span>/</span><span aria-current="page">Contacto</span></nav>
+      <span class="eyebrow">Hablemos</span>
+      <h1>Agenda una reunión con un Investment Advisor</h1>
+      <p class="lead">Te contactaremos para conocer tus objetivos y compartirte el detalle del fondo.</p>
+      <ul class="cinfo">
+        <li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" stroke="#17573F" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" stroke="#17573F" stroke-width="1.8"/></svg></span><div><small>Oficina</small><strong><a href="#ubicacion">Av. República de Panamá 3418, piso 19, of. 1901, San Isidro</a></strong></div></li>
+        <li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="#17573F" stroke-width="1.8" stroke-linejoin="round"/></svg></span><div><small>Teléfono y WhatsApp</small><strong><a href="tel:+51940416320">+51 940 416 320</a></strong></div></li>
+        <li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#17573F" stroke-width="1.8"/><path d="m3 7 9 6 9-6" stroke="#17573F" stroke-width="1.8"/></svg></span><div><small>Correo</small><strong><a href="mailto:info@gocapital.com.pe">info@gocapital.com.pe</a></strong></div></li>
+        <li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#17573F" stroke-width="1.8"/><path d="M12 7v5l3 2" stroke="#17573F" stroke-width="1.8" stroke-linecap="round"/></svg></span><div><small>Horario de atención</small><strong>Lunes a viernes · horario por confirmar</strong> <span class="pending">Por validar</span></div></li>
+      </ul>
+    </div>
+    <form class="card lead" novalidate>
+      <div class="fbody">
+        <div class="form-title">Déjanos tus datos</div>
+        <p class="form-sub">Solo te pedimos lo necesario para contactarte. Sin DNI en este paso.</p>
+        <div class="fgrid">
+          <div class="field full">
+            <label>¿Qué te interesa?</label>
+            <div class="chips">
+              <input type="radio" name="perfil" id="p1" value="invertir" checked><label for="p1">Quiero invertir</label>
+              <input type="radio" name="perfil" id="p2" value="asesor"><label for="p2">Ser asesor</label>
+              <input type="radio" name="perfil" id="p3" value="referir"><label for="p3">Referir</label>
+            </div>
+          </div>
+          <div class="field"><label for="f-nombre">Nombre y apellido</label><input id="f-nombre" autocomplete="name" required></div>
+          <div class="field"><label for="f-tel">Celular</label><input id="f-tel" type="tel" autocomplete="tel" placeholder="+51" required></div>
+          <div class="field full"><label for="f-mail">Correo electrónico</label><input id="f-mail" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="f-hora">Horario de contacto</label>
+            <select id="f-hora"><option>Mañana (9:00 – 12:00)</option><option>Mediodía (12:00 – 15:00)</option><option>Tarde (15:00 – 18:00)</option></select>
+          </div>
+          <div class="field"><label for="f-modo">Tipo de reunión</label>
+            <select id="f-modo"><option>Virtual</option><option>Presencial (San Isidro)</option><option>Llamada telefónica</option></select>
+          </div>
+        </div>
+        <label class="consent"><input type="checkbox" required> Acepto la Política de privacidad y autorizo a Go Capital a contactarme por teléfono, correo o WhatsApp.</label>
+        <button class="btn btn-primary" type="submit">Agenda una reunión</button>
+        <p class="form-note">Prototipo: el envío se integrará con CRM y WhatsApp Business.</p>
+      </div>
+      <div class="success" role="status">
+        <div class="ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="m5 12 5 5 9-10" stroke="#17573F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="form-title">¡Gracias! Te contactaremos pronto</div>
+        <p class="form-sub">Un Investment Advisor se comunicará contigo en el horario que elegiste.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="map-card reveal" id="ubicacion">
+      <iframe class="map-frame" title="Ubicación de Go Capital: Windward Tower, Av. República de Panamá 3418, San Isidro"
+        src="https://maps.google.com/maps?q=-12.097683,-77.0205341&amp;z=17&amp;hl=es&amp;output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      <div class="map-info">
+        <span class="eyebrow" style="margin:0">Nuestra oficina</span>
+        <strong>Windward Tower</strong>
+        <p>Av. República de Panamá 3418, piso 19, of. 1901, San Isidro, Lima</p>
+        <a class="btn btn-primary btn-sm" href="https://maps.app.goo.gl/EYtWVqQ7BkbVQLqK6" target="_blank" rel="noopener">Cómo llegar
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<script src="assets/site.js"></script>
+</body>
+</html>
